@@ -11,7 +11,7 @@ function Navbar() {
     navgate("/login");
   }
   return (
-    <div>
+    <div className='top-0 sticky'>
       <div className="main bg-[#06b6d4] text-black py-2 md:flex justify-between items-center lg:px-24 md:px-20">
         {/* left */}
         <div className="left">
